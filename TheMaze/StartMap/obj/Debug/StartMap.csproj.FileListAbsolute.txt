@@ -4,3 +4,9 @@ D:\Programirane\C#-Part 2\TEAMWORK\TheMaze\StartMap\bin\Debug\StartMap.pdb
 D:\Programirane\C#-Part 2\TEAMWORK\TheMaze\StartMap\obj\Debug\StartMap.csprojResolveAssemblyReference.cache
 D:\Programirane\C#-Part 2\TEAMWORK\TheMaze\StartMap\obj\Debug\StartMap.exe
 D:\Programirane\C#-Part 2\TEAMWORK\TheMaze\StartMap\obj\Debug\StartMap.pdb
+D:\Programirane\C#-Part 2\TEAM WORK\Maze---TW-Ancient-Behemoth\TheMaze\StartMap\bin\Debug\StartMap.exe.config
+D:\Programirane\C#-Part 2\TEAM WORK\Maze---TW-Ancient-Behemoth\TheMaze\StartMap\obj\Debug\StartMap.exe
+D:\Programirane\C#-Part 2\TEAM WORK\Maze---TW-Ancient-Behemoth\TheMaze\StartMap\obj\Debug\StartMap.pdb
+D:\Programirane\C#-Part 2\TEAM WORK\Maze---TW-Ancient-Behemoth\TheMaze\StartMap\bin\Debug\StartMap.exe
+D:\Programirane\C#-Part 2\TEAM WORK\Maze---TW-Ancient-Behemoth\TheMaze\StartMap\bin\Debug\StartMap.pdb
+D:\Programirane\C#-Part 2\TEAM WORK\Maze---TW-Ancient-Behemoth\TheMaze\StartMap\obj\Debug\StartMap.csprojResolveAssemblyReference.cache
