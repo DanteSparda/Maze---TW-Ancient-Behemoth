@@ -12,7 +12,8 @@ namespace StartMap
         {
             //Molq vsi4ki da commitnat 1 komentar za da znam, 4e sme svurzani
         //Testing from Vladi
-            
+
+            Console.WriteLine("{0}", "Testing from Stan");
             
             
         }

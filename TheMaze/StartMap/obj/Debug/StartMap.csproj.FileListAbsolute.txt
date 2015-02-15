@@ -13,3 +13,9 @@ D:\Programirane\C#-Part 2\TEAM WORK\Maze---TW-Ancient-Behemoth\TheMaze\StartMap\
 C:\all\Telerik\Maze---TW-Ancient-Behemoth.git\trunk\TheMaze\StartMap\bin\Debug\StartMap.exe.config
 C:\all\Telerik\Maze---TW-Ancient-Behemoth.git\trunk\TheMaze\StartMap\obj\Debug\StartMap.exe
 C:\all\Telerik\Maze---TW-Ancient-Behemoth.git\trunk\TheMaze\StartMap\obj\Debug\StartMap.pdb
+C:\Telerik\TelerikProjectMaze\TheMaze\StartMap\bin\Debug\StartMap.exe.config
+C:\Telerik\TelerikProjectMaze\TheMaze\StartMap\obj\Debug\StartMap.exe
+C:\Telerik\TelerikProjectMaze\TheMaze\StartMap\obj\Debug\StartMap.pdb
+C:\Telerik\TelerikProjectMaze\TheMaze\StartMap\bin\Debug\StartMap.exe
+C:\Telerik\TelerikProjectMaze\TheMaze\StartMap\bin\Debug\StartMap.pdb
+C:\Telerik\TelerikProjectMaze\TheMaze\StartMap\obj\Debug\StartMap.csprojResolveAssemblyReference.cache
