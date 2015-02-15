@@ -14,7 +14,7 @@ namespace StartMap
         //Testing from Vladi
 
             Console.WriteLine("{0}", "Testing from Stan");
-        //testing sync Mihail
+        //testing sync  Mihail
             
             
         }
