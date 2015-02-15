@@ -10,12 +10,11 @@ namespace StartMap
     {
         static void Main(string[] args)
         {
-        //Testing
-            //Second Test
-            //Third Test
-
-            //Collaborator test 
-                //Cool stuff all around
+            //Molq vsi4ki da commitnat 1 komentar za da znam, 4e sme svurzani
+        //Testing from Vladi
+            
+            
+            
         }
     }
 }
