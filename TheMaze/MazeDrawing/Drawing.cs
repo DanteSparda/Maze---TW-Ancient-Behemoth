@@ -8,7 +8,7 @@ using System.Threading.Tasks;
     {
         static void Main()
         {
-            string[,] theMaze = new string[42, 42];
+            string[,] theMaze = new string[43, 43];
             //Leave the first circle of the maze empty so it can be the exit area(theMaze[0,0],theMaze[0,1]....theMaze[42,41]theMaze[42,42]
            
                 for (int col = 1; col < theMaze.GetLength(0)-1; col++)
@@ -17,7 +17,7 @@ using System.Threading.Tasks;
                 }
                 for (int col = 1; col < theMaze.GetLength(0) ; col++)
                 {
-                    theMaze[41,col] = "#";
+                    theMaze[42,col] = "#";
                 }
                 for (int row = 1; row < theMaze.GetLength(0)-1; row++)
                 {
@@ -25,7 +25,7 @@ using System.Threading.Tasks;
                 }
                 for (int row = 1; row < theMaze.GetLength(0) - 1; row++)
                 {
-                    theMaze[row, 41] = "#";
+                    theMaze[row, 42] = "#";
                 }
                 for (int row = 0; row < theMaze.GetLength(0)-1; row++)
                 {
