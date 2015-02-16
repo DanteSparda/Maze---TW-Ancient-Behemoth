@@ -27,15 +27,19 @@ using System.Threading.Tasks;
                 {
                     theMaze[row, 42] = "#";
                 }
-                for (int row = 0; row < theMaze.GetLength(0)-1; row++)
+                for (int row = 1; row < theMaze.GetLength(0)-1; row++)
                 {
-                    for (int col = 0; col < theMaze.GetLength(0); col++)
+                    for (int col = 1; col < theMaze.GetLength(0); col++)
                     {
                         if (theMaze[row,col]!="#")
                         {
                             theMaze[row, col] = " ";
                         }
                     }
+                }
+                for (int row = 1; row < theMaze.GetLength(0); row++)
+                {
+                    theMaze[row, 0] = " ";
                 }
                 for (int row = 0; row < theMaze.GetLength(0); row++)
                 {
