@@ -19,3 +19,6 @@ C:\Telerik\TelerikProjectMaze\TheMaze\StartMap\obj\Debug\StartMap.pdb
 C:\Telerik\TelerikProjectMaze\TheMaze\StartMap\bin\Debug\StartMap.exe
 C:\Telerik\TelerikProjectMaze\TheMaze\StartMap\bin\Debug\StartMap.pdb
 C:\Telerik\TelerikProjectMaze\TheMaze\StartMap\obj\Debug\StartMap.csprojResolveAssemblyReference.cache
+D:\IlianaTelerik\HOMEWORK\C#Part2\TeamWork\TheMaze\StartMap\bin\Debug\StartMap.exe.config
+D:\IlianaTelerik\HOMEWORK\C#Part2\TeamWork\TheMaze\StartMap\obj\Debug\StartMap.exe
+D:\IlianaTelerik\HOMEWORK\C#Part2\TeamWork\TheMaze\StartMap\obj\Debug\StartMap.pdb
