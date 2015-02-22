@@ -42,10 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Drawing.cs" />
+    <Compile Include="DrawMaze.cs" />
     <Compile Include="Player.cs" />
-    <Compile Include="StartGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GameClock.cs" />
+    <Compile Include="StartGame.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
