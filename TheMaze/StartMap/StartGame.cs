@@ -18,6 +18,7 @@ namespace StartMap
             // test Rado
             // test Svetli
             //Test Iliana 23
+            //test Victor
             //Opravih taimera za vratata i za igrata (a e ve4niq taimer koit oshte e za highscore, b e timera za vratite. Namirat se v GameClock)
             GameClock a = new GameClock();
             GameClock b = new GameClock();
