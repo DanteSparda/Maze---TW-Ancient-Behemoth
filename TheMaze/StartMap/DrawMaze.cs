@@ -8,11 +8,13 @@ namespace StartMap
 {
     public class DrawMaze
     {
+        private int playerRow = 14;
+        private int playerCol = 28;
         private int startRow;
         private int startCol;
         private int endRow;
         private int endCol;
-        public int[,] mazeArray = new int[60,60];
+        public int[,] mazeArray = new int[60, 60];
 
         public void FillingMaze()
         {
@@ -22,7 +24,6 @@ namespace StartMap
             endCol = 55;
             int counter = 0;
             while (true)
-           
             {
 
                 if (counter % 2 == 0)
@@ -53,7 +54,7 @@ namespace StartMap
 
                     }
 
-                    for (int col = startCol-1; col <= endCol; col++)
+                    for (int col = startCol - 1; col <= endCol; col++)
                     {
                         mazeArray[startRow, col] = 1;
                     }
@@ -75,7 +76,7 @@ namespace StartMap
                     }
                     endCol--;
 
-                    for (int col = startCol-1; col <= endCol + 1; col++)
+                    for (int col = startCol - 1; col <= endCol + 1; col++)
                     {
                         mazeArray[endRow, col] = 1;
                     }
@@ -95,6 +96,12 @@ namespace StartMap
                 counter++;
             }
             createDoors();
+        }
+
+        // The player's figure
+        public void PLayerFigure()
+        {
+            mazeArray[playerRow, playerCol] = 1337;
         }
 
         public void createDoors()
