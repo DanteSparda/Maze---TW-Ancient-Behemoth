@@ -106,6 +106,40 @@ namespace StartMap
 
         public void createDoors()
         {
+             //exits
+            mazeArray[0, 8] = 0;
+            mazeArray[0, 33] = 0;
+            mazeArray[28, 8] = 0;
+            mazeArray[7, 0] = 0;
+            mazeArray[7, 1] = 0;
+            mazeArray[21, 55] = 0;
+            mazeArray[21, 54] = 0;
+            mazeArray[12, 54] = 0;
+            mazeArray[12, 55] = 0;
+            //holes
+            mazeArray[11, 4] = 0;
+            mazeArray[11, 5] = 0;
+            mazeArray[21, 4] = 0;
+            mazeArray[21, 5] = 0;
+            mazeArray[19, 8] = 0;
+            mazeArray[19, 9] = 0;
+            mazeArray[15, 12] = 0;
+            mazeArray[15, 13] = 0;
+            mazeArray[13, 20] = 0;
+            mazeArray[13, 21] = 0;
+            mazeArray[10, 38] = 0;
+            mazeArray[10, 39] = 0;
+            mazeArray[13, 46] = 0;
+            mazeArray[13, 47] = 0;
+            mazeArray[16, 27] = 0;
+            mazeArray[16, 28] = 0;
+            mazeArray[20, 24] = 0;
+            mazeArray[22, 38] = 0;
+            mazeArray[26, 25] = 0;
+            mazeArray[28, 45] = 0;
+            mazeArray[4, 38] = 0;
+            mazeArray[4, 15] = 0;
+            mazeArray[6, 25] = 0;
             mazeArray[18, 42] = 0;
             mazeArray[18, 43] = 0;
         }
