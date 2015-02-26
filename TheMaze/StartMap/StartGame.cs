@@ -1,116 +1,114 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Diagnostics;
-using System.Threading;
-using System.IO;
+﻿﻿using System;
 
 namespace StartMap
 {
-    class Program
+    class Maze
     {
-        static void mazeGraphics(int[,] maze, int length, int height)
+        
+        static DrawMaze maze = new DrawMaze();
+        static bool win = false;
+        //the Maze Hero
+        public static Coordinate Hero { get; set; }
+
+        static void Main()
         {
-            for (int row = 0; row < length; row++)
-            {
-
-                for (int col = 0; col < height; col++)
-                {
-
-                    if (maze[row, col] == 1)
-                    {
-                        Console.Write("▓");
-                    }
-                    else if (maze[row, col] == 1337)
-                    {
-                        Console.Write("@");
-                    }
-
-
-
-                    else
-                    {
-                        Console.Write(" ");
-                    }
-                }
-                Console.WriteLine();
-            }
-        }
-        static void Main(string[] args)
-        {
-            Stopwatch timer = new Stopwatch();
-            DrawMaze maze = new DrawMaze();
-            timer.Start();
-            int counter = 0;
-            //VAJNO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            //Timera raboti (ima thred.sleep koeto spira igrata za 5 sekundi za tova stava na vseki 5 sekundi timera (ako go nqma mnogo miga(nz kak da go opravq)
-            //Moje timera da ne se izpisva po vreme na igrata a samo posle (ideq e, no kato cqlo obnovqvaneto na maze-a stava 4esto i tova preebava neshtata (nz kak da 
-            //se opravi atm)
-            //Vtoro razmerite na array-a tqbva da se namalqt zashtoto otdolu ima super mnogo nenujno prostranstvo koeto preebava neshtata
-            //Treto Highscore-a raboti, moje da go testvate - puskate igrata 4akate da izleze ot do/while i posle otvarqte Highscores.txt i tam shte go ima zapisan
-            //rezultata.
-
-             do
-              {
-                  Console.WriteLine("{0:D2}:{1:D2}:{2:D2}", timer.Elapsed.Minutes, timer.Elapsed.Seconds, timer.Elapsed.Milliseconds);
+            
+            Console.SetWindowSize(56,30);
             maze.FillingMaze();
-            maze.PLayerFigure();
-            mazeGraphics(maze.mazeArray, maze.getLength(), maze.getHeight());
-            Thread.Sleep(5000);
-            Console.Clear();
-            counter++;
-              } while (counter!=10);
-            timer.Stop(); //<-- spirame timera
-             HighscoreSaving(timer); //<-- tova zapisva score-a vuv txt file. Ako iskate da go testvate http://pastebin.com/AGFzN0fn
-            // Tochno do .sln file trqbva da slojite fail-a Highscores.txt, v nego trqbva da ima 10 - 00:00:000 (bez kavi4ki bez nishto prosto da sa 10 i da sa na 
-            // po edin red vsqko
-            //Moje da se napravi da izpisva ako highscore-a e na purvo mqsto ili ako vuobshte vleze, no tova shte e kum kraq (za da mojem da rabotim s neshtata ot
-            // maze-a (sire4 timer-a, koito v momenta ne e mnogo implementiran)
+            maze.DrawingMaze();
+            InitialGame();
+            ConsoleKeyInfo keyInfo;
+            while ((keyInfo = Console.ReadKey(true)).Key != ConsoleKey.Escape)
+            {
+                switch (keyInfo.Key)
+                {
+                    case ConsoleKey.UpArrow:
+                        MoveHero(0, -1); break;
 
+                    case ConsoleKey.RightArrow:
+                        MoveHero(1, 0); break;
 
+                    case ConsoleKey.DownArrow:
+                        MoveHero(0, 1); break;
 
-            /*Tova cqloto koeto e po-nagore trqbva da e v 1 do while
-             * sled kato izleze ot nego shte zapazvame 
-             * 
-             * */
-
+                    case ConsoleKey.LeftArrow:
+                        MoveHero(-1, 0); break;
+                }
+                if (win == true)
+                {
+                    Console.Clear();
+                    Console.WriteLine(" __     __                    _       ");
+                    Console.WriteLine(" \\ \\   / /                   (_)      ");
+                    Console.WriteLine("  \\ \\_/ /__  _   _  __      ___ _ __  ");
+                    Console.WriteLine("   \\   / _ \\| | | | \\ \\ /\\ / / | '_ \\ ");
+                    Console.WriteLine("    | | (_) | |_| |  \\ V  V /| | | | |");
+                    Console.WriteLine("    |_|\\___/ \\__,_|   \\_/\\_/ |_|_| |_|");
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    return;
+                }
+            }
         }
-        static void HighscoreSaving(Stopwatch clock)
+        //Hero intitialisation
+        static void InitialGame()
         {
-            List<string> highscores = new List<string>();
-            //Stopwatch clock = new Stopwatch();
-            //clock.Start();
-            //Console.ReadLine();
-            //clock.Stop();
-            var builder = new StringBuilder();
-            builder.AppendFormat("{0:D2}:{1:D2}:{2:D2}", clock.Elapsed.Minutes, clock.Elapsed.Seconds, clock.Elapsed.Milliseconds);
-            Console.WriteLine(builder);
-            var highscoreReader = new StreamReader("..\\..\\..\\Highscores.txt");
-            using (highscoreReader)
+            Hero = new Coordinate()
             {
-                for (int i = 0; i < 10; i++)
-                {
-                    string currentLine = highscoreReader.ReadLine();
-                    highscores.Add(currentLine);
-                }
+                X = 28,
+                Y = 14
+            };
+            MoveHero(28, 14);
+        }
+        //draw the hero
+        static void MoveHero(int x, int y)
+        {
+            Coordinate newHero = new Coordinate()
+            {
+                X = Hero.X + x,
+                Y = Hero.Y + y
+            };
 
-            }
-            string currentResult = builder.ToString();
-            highscores.Add(currentResult);
-            highscores.Sort();
-            highscores.Reverse();
-            highscores.RemoveAt(10);
-            var highscoreWriter = new StreamWriter("..\\..\\..\\Highscores.txt");
-            using (highscoreWriter)
+            if (CanMove(newHero))
             {
-                foreach (var scores in highscores)
-                {
-                    highscoreWriter.WriteLine("{0:00:00}", scores);
-                }
+                RemoveHero();
+                Console.SetCursorPosition(newHero.X, newHero.Y);
+                Console.Write("@");
+                Hero = newHero;
+
+
+
             }
         }
+        //we may place restirctions on the console drawing here
+        static bool CanMove(Coordinate c)
+        {
+            if (c.X < 0 || c.X >= Console.WindowWidth)
+                return false;
+            if (c.Y < 0 || c.Y >= Console.WindowHeight)
+                return false;
 
+            if (maze.mazeArray[c.Y, c.X] == 1)
+            {
+                return false;
+            }
+            if (maze.mazeArray[c.Y, c.X] == 10)
+            {
+                win = true;
+            }
+            return true;
+        }
+
+        //removes the old hero as it moves
+        static void RemoveHero()
+        {
+            Console.SetCursorPosition(Hero.X, Hero.Y);
+            Console.Write(" ");
+        }
+    }
+
+    class Coordinate
+    {
+        public int X { get; set; } //Left
+        public int Y { get; set; } //Top
     }
 }

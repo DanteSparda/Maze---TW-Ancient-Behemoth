@@ -8,13 +8,13 @@ namespace StartMap
 {
     public class DrawMaze
     {
-        private int playerRow = 14;
-        private int playerCol = 28;
+      //  private int playerRow = 14;
+      //  private int playerCol = 28;
         private int startRow;
         private int startCol;
         private int endRow;
         private int endCol;
-        public int[,] mazeArray = new int[60, 60];
+        public int[,] mazeArray = new int[29, 56];
 
         public void FillingMaze()
         {
@@ -99,24 +99,13 @@ namespace StartMap
         }
 
         // The player's figure
-        public void PLayerFigure()
-        {
-            mazeArray[playerRow, playerCol] = 1337;
-        }
+        //public void PLayerFigure()
+        //{
+        //    mazeArray[playerRow, playerCol] = 1337;
+        //}
 
         public void createDoors()
         {
-             //exits
-            mazeArray[0, 8] = 0;
-            mazeArray[0, 33] = 0;
-            mazeArray[28, 8] = 0;
-            mazeArray[7, 0] = 0;
-            mazeArray[7, 1] = 0;
-            mazeArray[21, 55] = 0;
-            mazeArray[21, 54] = 0;
-            mazeArray[12, 54] = 0;
-            mazeArray[12, 55] = 0;
-            //holes
             mazeArray[11, 4] = 0;
             mazeArray[11, 5] = 0;
             mazeArray[21, 4] = 0;
@@ -136,12 +125,13 @@ namespace StartMap
             mazeArray[20, 24] = 0;
             mazeArray[22, 38] = 0;
             mazeArray[26, 25] = 0;
-            mazeArray[28, 45] = 0;
+            mazeArray[28, 45] = 10;
             mazeArray[4, 38] = 0;
             mazeArray[4, 15] = 0;
             mazeArray[6, 25] = 0;
             mazeArray[18, 42] = 0;
             mazeArray[18, 43] = 0;
+
         }
         public int getLength()
         {
@@ -158,6 +148,36 @@ namespace StartMap
         public int GetLastCol()
         {
             return endCol;
+        }
+        public void DrawingMaze()
+        {
+            for (int row = 0; row < getLength(); row++)
+            {
+                for (int col = 0; col < getHeight(); col++)
+                {
+
+                    if (mazeArray[row, col] == 1)
+                    {
+                        Console.Write("▓");
+                    }
+                    else if (mazeArray[row, col] == 1337)
+                    {
+                        Console.Write("@");
+                    }
+                    else if (mazeArray[row, col] == 10)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.Write("▓");
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                    }
+
+                    else
+                    {
+                        Console.Write(" ");
+                    }
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
