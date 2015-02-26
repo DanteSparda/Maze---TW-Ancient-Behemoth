@@ -12,7 +12,7 @@ namespace StartMap
 
         static void Main()
         {
-            
+            Console.Title = "MazeRunner";
             Console.SetWindowSize(56,30);
             maze.FillingMaze();
             maze.DrawingMaze();
