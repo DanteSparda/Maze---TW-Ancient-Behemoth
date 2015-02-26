@@ -110,8 +110,6 @@ namespace StartMap
             mazeArray[11, 5] = 0;
             mazeArray[21, 4] = 0;
             mazeArray[21, 5] = 0;
-            mazeArray[19, 8] = 0;
-            mazeArray[19, 9] = 0;
             mazeArray[15, 12] = 0;
             mazeArray[15, 13] = 0;
             mazeArray[13, 20] = 0;
@@ -131,7 +129,32 @@ namespace StartMap
             mazeArray[6, 25] = 0;
             mazeArray[18, 42] = 0;
             mazeArray[18, 43] = 0;
-
+            mazeArray[9, 3] = 1;
+            mazeArray[9, 2] = 1;
+            mazeArray[10, 49] = 1;
+            mazeArray[10, 48] = 1;
+            mazeArray[17, 7] = 1;
+            mazeArray[17, 6] = 1;
+            mazeArray[15, 23] = 1;
+            mazeArray[15, 22] = 1;
+            mazeArray[19, 33] = 1;
+            mazeArray[19, 32] = 1;
+            mazeArray[21, 17] = 1;
+            mazeArray[21, 18] = 1;
+            mazeArray[14, 40] = 1;
+            mazeArray[14, 41] = 1;
+            mazeArray[25, 32] = 1;
+            mazeArray[25, 31] = 1;
+            mazeArray[27, 10] = 1;
+            mazeArray[27, 11] = 1;
+            mazeArray[20, 52] = 1;
+            mazeArray[20, 53] = 1;
+            mazeArray[17, 50] = 0;
+            mazeArray[17, 51] = 0;
+            mazeArray[7, 17] = 1;
+            mazeArray[7, 18] = 1;
+            mazeArray[5, 21] = 1;
+            mazeArray[5, 20] = 1;
         }
         public int getLength()
         {
