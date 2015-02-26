@@ -46,6 +46,7 @@ namespace StartMap
                     Console.WriteLine();
                     Console.WriteLine();
                     Console.ReadLine();
+                    Console.ReadLine();
                     return;
 
                 }
