@@ -16,7 +16,7 @@ namespace StartMap
 
         private static void doMusic()
         {
-            using (SoundPlayer player = new SoundPlayer("Spooky Music Instrumental - Twilight Hollow.wav"))
+            using (SoundPlayer player = new SoundPlayer("../../Spooky Music Instrumental - Twilight Hollow.wav"))
             {
                 // Use PlaySync to load and then play the sound.
                 // ... The program will pause until the sound is complete.
