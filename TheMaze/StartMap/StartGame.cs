@@ -1,12 +1,16 @@
-﻿﻿using System;
+﻿using System;
 using System.Media;
 using System.Threading;
+using System.Diagnostics;
+using System.Collections.Generic;
+using System.Text;
+using System.IO;
 
 namespace StartMap
 {
     class Maze
     {
-
+        static Stopwatch timer = new Stopwatch();
         static DrawMaze maze = new DrawMaze();
         static bool win = false;
         //the Maze Hero
@@ -32,7 +36,7 @@ namespace StartMap
             ThreadStart threadDelegate = new ThreadStart(doMusic);
             Thread newThread = new Thread(threadDelegate);
             newThread.Start();
-
+            timer.Start();
 
             Console.Title = "MazeRunner";
             Console.SetWindowSize(56, 30);
@@ -58,6 +62,8 @@ namespace StartMap
                 }
                 if (win == true)
                 {
+                    timer.Stop();
+                    HighscoreSaving(timer);
                     Console.Clear();
                     Console.WriteLine("\t      __                    _       ");
                     Console.WriteLine("\t   \\ \\   / /                   (_)      ");
@@ -67,6 +73,11 @@ namespace StartMap
                     Console.WriteLine("\t      |_|\\___/ \\__,_|   \\_/\\_/ |_|_| |_|");
                     Console.WriteLine();
                     Console.WriteLine();
+                    Console.WriteLine("Well done friend!");
+                    Console.WriteLine("Your score is {0}:{1}:{2}", timer.Elapsed.Minutes, timer.Elapsed.Seconds, timer.Elapsed.Milliseconds);
+                    Console.WriteLine();
+                    HighscorePrint();
+
                     Console.ReadLine();
                     return;
 
@@ -127,6 +138,47 @@ namespace StartMap
         {
             Console.SetCursorPosition(Hero.X, Hero.Y);
             Console.Write(" ");
+        }
+        //saving the highscore
+        static void HighscoreSaving(Stopwatch clock)
+        {
+            List<string> highscores = new List<string>();
+            var builder = new StringBuilder();
+            builder.AppendFormat("{0:D2}:{1:D2}:{2:D2}", clock.Elapsed.Minutes, clock.Elapsed.Seconds, clock.Elapsed.Milliseconds);
+            Console.WriteLine(builder);
+            var highscoreReader = new StreamReader("..\\..\\..\\Highscores.txt");
+            using (highscoreReader)
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    string currentLine = highscoreReader.ReadLine();
+                    highscores.Add(currentLine);
+                }
+
+            }
+            string currentResult = builder.ToString();
+            highscores.Add(currentResult);
+            highscores.Sort();
+            highscores.Reverse();
+            highscores.RemoveAt(10);
+            var highscoreWriter = new StreamWriter("..\\..\\..\\Highscores.txt");
+            using (highscoreWriter)
+            {
+                foreach (var scores in highscores)
+                {
+                    highscoreWriter.WriteLine("{0:00:00}", scores);
+                }
+            }
+        }
+        //printing the highscore
+        static void HighscorePrint()
+        {
+            string[] result = File.ReadAllLines("..\\..\\..\\Highscores.txt");
+            Console.WriteLine();
+            foreach (var word in result)
+            {
+                Console.WriteLine(word);
+            }
         }
     }
 
