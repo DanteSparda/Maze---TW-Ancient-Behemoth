@@ -1,19 +1,41 @@
 ﻿﻿using System;
+using System.Media;
+using System.Threading;
 
 namespace StartMap
 {
     class Maze
     {
-        
+
         static DrawMaze maze = new DrawMaze();
         static bool win = false;
         //the Maze Hero
         public static Coordinate Hero { get; set; }
 
+
+
+        private static void doMusic()
+        {
+            using (SoundPlayer player = new SoundPlayer("Spooky Music Instrumental - Twilight Hollow.wav"))
+            {
+                // Use PlaySync to load and then play the sound.
+                // ... The program will pause until the sound is complete.
+                player.PlaySync();
+            }
+        }
+
+
         static void Main()
         {
+
+
+            ThreadStart threadDelegate = new ThreadStart(doMusic);
+            Thread newThread = new Thread(threadDelegate);
+            newThread.Start();
+
+
             Console.Title = "MazeRunner";
-            Console.SetWindowSize(56,30);
+            Console.SetWindowSize(56, 30);
             maze.FillingMaze();
             maze.DrawingMaze();
             InitialGame();
@@ -37,12 +59,12 @@ namespace StartMap
                 if (win == true)
                 {
                     Console.Clear();
-                    Console.WriteLine(" __     __                    _       ");
-                    Console.WriteLine(" \\ \\   / /                   (_)      ");
-                    Console.WriteLine("  \\ \\_/ /__  _   _  __      ___ _ __  ");
-                    Console.WriteLine("   \\   / _ \\| | | | \\ \\ /\\ / / | '_ \\ ");
-                    Console.WriteLine("    | | (_) | |_| |  \\ V  V /| | | | |");
-                    Console.WriteLine("    |_|\\___/ \\__,_|   \\_/\\_/ |_|_| |_|");
+                    Console.WriteLine("\t      __                    _       ");
+                    Console.WriteLine("\t   \\ \\   / /                   (_)      ");
+                    Console.WriteLine("\t    \\ \\_/ /__  _   _  __      ___ _ __  ");
+                    Console.WriteLine("\t     \\   / _ \\| | | | \\ \\ /\\ / / | '_ \\ ");
+                    Console.WriteLine("\t      | | (_) | |_| |  \\ V  V /| | | | |");
+                    Console.WriteLine("\t      |_|\\___/ \\__,_|   \\_/\\_/ |_|_| |_|");
                     Console.WriteLine();
                     Console.WriteLine();
                     Console.ReadLine();
