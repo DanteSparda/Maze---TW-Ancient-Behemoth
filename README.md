@@ -1,3 +1,5 @@
 # Maze---TW-Ancient-Behemoth
 Team work with ancient behemoths
-HELP I NEED SOMEBODY
+
+
+#Game is being started from the file StartMap/StartGame.cs
