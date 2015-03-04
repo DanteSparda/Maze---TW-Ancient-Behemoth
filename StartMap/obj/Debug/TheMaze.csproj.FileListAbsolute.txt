@@ -49,3 +49,9 @@ C:\Users\Stiliyan\Desktop\THE FINAL FINAL\FINAL\NA MIHAIL VERSIQTA FINAL\TheMaze
 C:\Users\Stiliyan\Desktop\THE FINAL FINAL\FINAL\NA MIHAIL VERSIQTA FINAL\TheMazeLastVersionUp23.0.1\TheMaze\StartMap\bin\Debug\ConsoleApplication1.exe
 C:\Users\Stiliyan\Desktop\THE FINAL FINAL\FINAL\NA MIHAIL VERSIQTA FINAL\TheMazeLastVersionUp23.0.1\TheMaze\StartMap\bin\Debug\ConsoleApplication1.pdb
 C:\Users\Stiliyan\Desktop\THE FINAL FINAL\FINAL\NA MIHAIL VERSIQTA FINAL\TheMazeLastVersionUp23.0.1\TheMaze\StartMap\obj\Debug\TheMaze.csprojResolveAssemblyReference.cache
+C:\all\Telerik\Maze---TW-Ancient-Behemoth\trunk\StartMap\bin\Debug\ConsoleApplication1.exe.config
+C:\all\Telerik\Maze---TW-Ancient-Behemoth\trunk\StartMap\obj\Debug\ConsoleApplication1.exe
+C:\all\Telerik\Maze---TW-Ancient-Behemoth\trunk\StartMap\obj\Debug\ConsoleApplication1.pdb
+C:\all\Telerik\Maze---TW-Ancient-Behemoth\trunk\StartMap\bin\Debug\ConsoleApplication1.exe
+C:\all\Telerik\Maze---TW-Ancient-Behemoth\trunk\StartMap\bin\Debug\ConsoleApplication1.pdb
+C:\all\Telerik\Maze---TW-Ancient-Behemoth\trunk\StartMap\obj\Debug\TheMaze.csprojResolveAssemblyReference.cache
