@@ -1,0 +1,2265 @@
+<stylecopresultscache>
+  <version>12</version>
+  <sourcecode name="Coordinate.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2014.04.01 10:18:24.000</styleCop>
+      <settingsFile>2015.02.28 18:54:16.617</settingsFile>
+      <sourceFile>2015.02.28 18:54:25.718</sourceFile>
+      <parser>2014.04.01 10:18:24.000</parser>
+      <StyleCop.CSharp.DocumentationRules>2014.04.01 10:18:24.000</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1052627200</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2014.04.01 10:18:24.000</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2014.04.01 10:18:24.000</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2014.04.01 10:18:24.000</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name="DrawMaze.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2014.04.01 10:18:24.000</styleCop>
+      <settingsFile>2015.02.28 18:54:16.617</settingsFile>
+      <sourceFile>2015.02.28 19:01:05.398</sourceFile>
+      <parser>2014.04.01 10:18:24.000</parser>
+      <StyleCop.CSharp.DocumentationRules>2014.04.01 10:18:24.000</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1052627200</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2014.04.01 10:18:24.000</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2014.04.01 10:18:24.000</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2014.04.01 10:18:24.000</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations>
+      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="FieldsMustBePrivate" ruleCheckId="SA1401">
+        <context>Fields must be declared with private access. Use properties to expose fields.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.NamingRules" rule="AccessibleFieldsMustBeginWithUpperCaseLetter" ruleCheckId="SA1307">
+        <context>Public and internal fields must start with an upper-case letter: mazeArray.</context>
+        <line>7</line>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>33</line>
+        <index>905</index>
+        <endIndex>913</endIndex>
+        <startLine>33</startLine>
+        <startColumn>29</startColumn>
+        <endLine>33</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>33</line>
+        <index>920</index>
+        <endIndex>927</endIndex>
+        <startLine>33</startLine>
+        <startColumn>44</startColumn>
+        <endLine>33</endLine>
+        <endColumn>51</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>31</line>
+        <index>817</index>
+        <endIndex>824</endIndex>
+        <startLine>31</startLine>
+        <startColumn>40</startColumn>
+        <endLine>31</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>31</line>
+        <index>834</index>
+        <endIndex>839</endIndex>
+        <startLine>31</startLine>
+        <startColumn>57</startColumn>
+        <endLine>31</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>36</line>
+        <index>989</index>
+        <endIndex>996</endIndex>
+        <startLine>36</startLine>
+        <startColumn>25</startColumn>
+        <endLine>36</endLine>
+        <endColumn>32</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>44</line>
+        <index>1314</index>
+        <endIndex>1322</endIndex>
+        <startLine>44</startLine>
+        <startColumn>37</startColumn>
+        <endLine>44</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>44</line>
+        <index>1329</index>
+        <endIndex>1336</endIndex>
+        <startLine>44</startLine>
+        <startColumn>52</startColumn>
+        <endLine>44</endLine>
+        <endColumn>59</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>42</line>
+        <index>1203</index>
+        <endIndex>1210</endIndex>
+        <startLine>42</startLine>
+        <startColumn>48</startColumn>
+        <endLine>42</endLine>
+        <endColumn>55</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>42</line>
+        <index>1223</index>
+        <endIndex>1228</endIndex>
+        <startLine>42</startLine>
+        <startColumn>68</startColumn>
+        <endLine>42</endLine>
+        <endColumn>73</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>49</line>
+        <index>1498</index>
+        <endIndex>1505</endIndex>
+        <startLine>49</startLine>
+        <startColumn>37</startColumn>
+        <endLine>49</endLine>
+        <endColumn>44</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>57</line>
+        <index>1748</index>
+        <endIndex>1756</endIndex>
+        <startLine>57</startLine>
+        <startColumn>25</startColumn>
+        <endLine>57</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>57</line>
+        <index>1758</index>
+        <endIndex>1765</endIndex>
+        <startLine>57</startLine>
+        <startColumn>35</startColumn>
+        <endLine>57</endLine>
+        <endColumn>42</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>55</line>
+        <index>1664</index>
+        <endIndex>1671</endIndex>
+        <startLine>55</startLine>
+        <startColumn>36</startColumn>
+        <endLine>55</endLine>
+        <endColumn>43</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>55</line>
+        <index>1685</index>
+        <endIndex>1690</endIndex>
+        <startLine>55</startLine>
+        <startColumn>57</startColumn>
+        <endLine>55</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>60</line>
+        <index>1824</index>
+        <endIndex>1831</endIndex>
+        <startLine>60</startLine>
+        <startColumn>21</startColumn>
+        <endLine>60</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>66</line>
+        <index>2038</index>
+        <endIndex>2046</endIndex>
+        <startLine>66</startLine>
+        <startColumn>29</startColumn>
+        <endLine>66</endLine>
+        <endColumn>37</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>66</line>
+        <index>2053</index>
+        <endIndex>2058</endIndex>
+        <startLine>66</startLine>
+        <startColumn>44</startColumn>
+        <endLine>66</endLine>
+        <endColumn>49</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>64</line>
+        <index>1950</index>
+        <endIndex>1957</endIndex>
+        <startLine>64</startLine>
+        <startColumn>40</startColumn>
+        <endLine>64</endLine>
+        <endColumn>47</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>64</line>
+        <index>1967</index>
+        <endIndex>1972</endIndex>
+        <startLine>64</startLine>
+        <startColumn>57</startColumn>
+        <endLine>64</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>69</line>
+        <index>2120</index>
+        <endIndex>2125</endIndex>
+        <startLine>69</startLine>
+        <startColumn>25</startColumn>
+        <endLine>69</endLine>
+        <endColumn>30</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>74</line>
+        <index>2278</index>
+        <endIndex>2286</endIndex>
+        <startLine>74</startLine>
+        <startColumn>25</startColumn>
+        <endLine>74</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>74</line>
+        <index>2293</index>
+        <endIndex>2298</endIndex>
+        <startLine>74</startLine>
+        <startColumn>40</startColumn>
+        <endLine>74</endLine>
+        <endColumn>45</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>72</line>
+        <index>2191</index>
+        <endIndex>2198</endIndex>
+        <startLine>72</startLine>
+        <startColumn>36</startColumn>
+        <endLine>72</endLine>
+        <endColumn>43</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>72</line>
+        <index>2211</index>
+        <endIndex>2216</endIndex>
+        <startLine>72</startLine>
+        <startColumn>56</startColumn>
+        <endLine>72</endLine>
+        <endColumn>61</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>77</line>
+        <index>2356</index>
+        <endIndex>2361</endIndex>
+        <startLine>77</startLine>
+        <startColumn>21</startColumn>
+        <endLine>77</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>81</line>
+        <index>2492</index>
+        <endIndex>2500</endIndex>
+        <startLine>81</startLine>
+        <startColumn>25</startColumn>
+        <endLine>81</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>81</line>
+        <index>2502</index>
+        <endIndex>2507</endIndex>
+        <startLine>81</startLine>
+        <startColumn>35</startColumn>
+        <endLine>81</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>79</line>
+        <index>2404</index>
+        <endIndex>2411</endIndex>
+        <startLine>79</startLine>
+        <startColumn>36</startColumn>
+        <endLine>79</endLine>
+        <endColumn>43</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>79</line>
+        <index>2425</index>
+        <endIndex>2430</endIndex>
+        <startLine>79</startLine>
+        <startColumn>57</startColumn>
+        <endLine>79</endLine>
+        <endColumn>62</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>84</line>
+        <index>2566</index>
+        <endIndex>2571</endIndex>
+        <startLine>84</startLine>
+        <startColumn>21</startColumn>
+        <endLine>84</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>88</line>
+        <index>2657</index>
+        <endIndex>2664</endIndex>
+        <startLine>88</startLine>
+        <startColumn>21</startColumn>
+        <endLine>88</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>89</line>
+        <index>2690</index>
+        <endIndex>2697</endIndex>
+        <startLine>89</startLine>
+        <startColumn>21</startColumn>
+        <endLine>89</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endRow must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>90</line>
+        <index>2723</index>
+        <endIndex>2728</endIndex>
+        <startLine>90</startLine>
+        <startColumn>21</startColumn>
+        <endLine>90</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>91</line>
+        <index>2754</index>
+        <endIndex>2759</endIndex>
+        <startLine>91</startLine>
+        <startColumn>21</startColumn>
+        <endLine>91</endLine>
+        <endColumn>26</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>105</line>
+        <index>3004</index>
+        <endIndex>3012</endIndex>
+        <startLine>105</startLine>
+        <startColumn>13</startColumn>
+        <endLine>105</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>106</line>
+        <index>3038</index>
+        <endIndex>3046</endIndex>
+        <startLine>106</startLine>
+        <startColumn>13</startColumn>
+        <endLine>106</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>107</line>
+        <index>3072</index>
+        <endIndex>3080</endIndex>
+        <startLine>107</startLine>
+        <startColumn>13</startColumn>
+        <endLine>107</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>108</line>
+        <index>3108</index>
+        <endIndex>3116</endIndex>
+        <startLine>108</startLine>
+        <startColumn>13</startColumn>
+        <endLine>108</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>109</line>
+        <index>3144</index>
+        <endIndex>3152</endIndex>
+        <startLine>109</startLine>
+        <startColumn>13</startColumn>
+        <endLine>109</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>110</line>
+        <index>3180</index>
+        <endIndex>3188</endIndex>
+        <startLine>110</startLine>
+        <startColumn>13</startColumn>
+        <endLine>110</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>111</line>
+        <index>3216</index>
+        <endIndex>3224</endIndex>
+        <startLine>111</startLine>
+        <startColumn>13</startColumn>
+        <endLine>111</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>112</line>
+        <index>3252</index>
+        <endIndex>3260</endIndex>
+        <startLine>112</startLine>
+        <startColumn>13</startColumn>
+        <endLine>112</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>113</line>
+        <index>3288</index>
+        <endIndex>3296</endIndex>
+        <startLine>113</startLine>
+        <startColumn>13</startColumn>
+        <endLine>113</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>114</line>
+        <index>3324</index>
+        <endIndex>3332</endIndex>
+        <startLine>114</startLine>
+        <startColumn>13</startColumn>
+        <endLine>114</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>115</line>
+        <index>3360</index>
+        <endIndex>3368</endIndex>
+        <startLine>115</startLine>
+        <startColumn>13</startColumn>
+        <endLine>115</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>116</line>
+        <index>3396</index>
+        <endIndex>3404</endIndex>
+        <startLine>116</startLine>
+        <startColumn>13</startColumn>
+        <endLine>116</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>117</line>
+        <index>3432</index>
+        <endIndex>3440</endIndex>
+        <startLine>117</startLine>
+        <startColumn>13</startColumn>
+        <endLine>117</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>118</line>
+        <index>3468</index>
+        <endIndex>3476</endIndex>
+        <startLine>118</startLine>
+        <startColumn>13</startColumn>
+        <endLine>118</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>119</line>
+        <index>3504</index>
+        <endIndex>3512</endIndex>
+        <startLine>119</startLine>
+        <startColumn>13</startColumn>
+        <endLine>119</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>120</line>
+        <index>3540</index>
+        <endIndex>3548</endIndex>
+        <startLine>120</startLine>
+        <startColumn>13</startColumn>
+        <endLine>120</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>121</line>
+        <index>3576</index>
+        <endIndex>3584</endIndex>
+        <startLine>121</startLine>
+        <startColumn>13</startColumn>
+        <endLine>121</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>122</line>
+        <index>3612</index>
+        <endIndex>3620</endIndex>
+        <startLine>122</startLine>
+        <startColumn>13</startColumn>
+        <endLine>122</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>123</line>
+        <index>3648</index>
+        <endIndex>3656</endIndex>
+        <startLine>123</startLine>
+        <startColumn>13</startColumn>
+        <endLine>123</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>124</line>
+        <index>3684</index>
+        <endIndex>3692</endIndex>
+        <startLine>124</startLine>
+        <startColumn>13</startColumn>
+        <endLine>124</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>125</line>
+        <index>3720</index>
+        <endIndex>3728</endIndex>
+        <startLine>125</startLine>
+        <startColumn>13</startColumn>
+        <endLine>125</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>126</line>
+        <index>3755</index>
+        <endIndex>3763</endIndex>
+        <startLine>126</startLine>
+        <startColumn>13</startColumn>
+        <endLine>126</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>127</line>
+        <index>3790</index>
+        <endIndex>3798</endIndex>
+        <startLine>127</startLine>
+        <startColumn>13</startColumn>
+        <endLine>127</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>128</line>
+        <index>3825</index>
+        <endIndex>3833</endIndex>
+        <startLine>128</startLine>
+        <startColumn>13</startColumn>
+        <endLine>128</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>129</line>
+        <index>3860</index>
+        <endIndex>3868</endIndex>
+        <startLine>129</startLine>
+        <startColumn>13</startColumn>
+        <endLine>129</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>130</line>
+        <index>3895</index>
+        <endIndex>3903</endIndex>
+        <startLine>130</startLine>
+        <startColumn>13</startColumn>
+        <endLine>130</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>131</line>
+        <index>3930</index>
+        <endIndex>3938</endIndex>
+        <startLine>131</startLine>
+        <startColumn>13</startColumn>
+        <endLine>131</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>132</line>
+        <index>3966</index>
+        <endIndex>3974</endIndex>
+        <startLine>132</startLine>
+        <startColumn>13</startColumn>
+        <endLine>132</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>133</line>
+        <index>4002</index>
+        <endIndex>4010</endIndex>
+        <startLine>133</startLine>
+        <startColumn>13</startColumn>
+        <endLine>133</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>134</line>
+        <index>4038</index>
+        <endIndex>4046</endIndex>
+        <startLine>134</startLine>
+        <startColumn>13</startColumn>
+        <endLine>134</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>135</line>
+        <index>4074</index>
+        <endIndex>4082</endIndex>
+        <startLine>135</startLine>
+        <startColumn>13</startColumn>
+        <endLine>135</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>136</line>
+        <index>4110</index>
+        <endIndex>4118</endIndex>
+        <startLine>136</startLine>
+        <startColumn>13</startColumn>
+        <endLine>136</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>137</line>
+        <index>4146</index>
+        <endIndex>4154</endIndex>
+        <startLine>137</startLine>
+        <startColumn>13</startColumn>
+        <endLine>137</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>138</line>
+        <index>4182</index>
+        <endIndex>4190</endIndex>
+        <startLine>138</startLine>
+        <startColumn>13</startColumn>
+        <endLine>138</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>139</line>
+        <index>4218</index>
+        <endIndex>4226</endIndex>
+        <startLine>139</startLine>
+        <startColumn>13</startColumn>
+        <endLine>139</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>140</line>
+        <index>4254</index>
+        <endIndex>4262</endIndex>
+        <startLine>140</startLine>
+        <startColumn>13</startColumn>
+        <endLine>140</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>141</line>
+        <index>4290</index>
+        <endIndex>4298</endIndex>
+        <startLine>141</startLine>
+        <startColumn>13</startColumn>
+        <endLine>141</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>142</line>
+        <index>4326</index>
+        <endIndex>4334</endIndex>
+        <startLine>142</startLine>
+        <startColumn>13</startColumn>
+        <endLine>142</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>143</line>
+        <index>4362</index>
+        <endIndex>4370</endIndex>
+        <startLine>143</startLine>
+        <startColumn>13</startColumn>
+        <endLine>143</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>146</line>
+        <index>4420</index>
+        <endIndex>4428</endIndex>
+        <startLine>146</startLine>
+        <startColumn>13</startColumn>
+        <endLine>146</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>149</line>
+        <index>4480</index>
+        <endIndex>4488</endIndex>
+        <startLine>149</startLine>
+        <startColumn>13</startColumn>
+        <endLine>149</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>151</line>
+        <index>4519</index>
+        <endIndex>4527</endIndex>
+        <startLine>151</startLine>
+        <startColumn>13</startColumn>
+        <endLine>151</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>152</line>
+        <index>4554</index>
+        <endIndex>4562</endIndex>
+        <startLine>152</startLine>
+        <startColumn>13</startColumn>
+        <endLine>152</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>153</line>
+        <index>4589</index>
+        <endIndex>4597</endIndex>
+        <startLine>153</startLine>
+        <startColumn>13</startColumn>
+        <endLine>153</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>154</line>
+        <index>4624</index>
+        <endIndex>4632</endIndex>
+        <startLine>154</startLine>
+        <startColumn>13</startColumn>
+        <endLine>154</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>155</line>
+        <index>4659</index>
+        <endIndex>4667</endIndex>
+        <startLine>155</startLine>
+        <startColumn>13</startColumn>
+        <endLine>155</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>156</line>
+        <index>4694</index>
+        <endIndex>4702</endIndex>
+        <startLine>156</startLine>
+        <startColumn>13</startColumn>
+        <endLine>156</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>157</line>
+        <index>4729</index>
+        <endIndex>4737</endIndex>
+        <startLine>157</startLine>
+        <startColumn>13</startColumn>
+        <endLine>157</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>158</line>
+        <index>4765</index>
+        <endIndex>4773</endIndex>
+        <startLine>158</startLine>
+        <startColumn>13</startColumn>
+        <endLine>158</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>159</line>
+        <index>4801</index>
+        <endIndex>4809</endIndex>
+        <startLine>159</startLine>
+        <startColumn>13</startColumn>
+        <endLine>159</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>160</line>
+        <index>4837</index>
+        <endIndex>4845</endIndex>
+        <startLine>160</startLine>
+        <startColumn>13</startColumn>
+        <endLine>160</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>161</line>
+        <index>4873</index>
+        <endIndex>4881</endIndex>
+        <startLine>161</startLine>
+        <startColumn>13</startColumn>
+        <endLine>161</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>162</line>
+        <index>4909</index>
+        <endIndex>4917</endIndex>
+        <startLine>162</startLine>
+        <startColumn>13</startColumn>
+        <endLine>162</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>163</line>
+        <index>4945</index>
+        <endIndex>4953</endIndex>
+        <startLine>163</startLine>
+        <startColumn>13</startColumn>
+        <endLine>163</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>164</line>
+        <index>4979</index>
+        <endIndex>4987</endIndex>
+        <startLine>164</startLine>
+        <startColumn>13</startColumn>
+        <endLine>164</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>165</line>
+        <index>5013</index>
+        <endIndex>5021</endIndex>
+        <startLine>165</startLine>
+        <startColumn>13</startColumn>
+        <endLine>165</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>166</line>
+        <index>5049</index>
+        <endIndex>5057</endIndex>
+        <startLine>166</startLine>
+        <startColumn>13</startColumn>
+        <endLine>166</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>167</line>
+        <index>5085</index>
+        <endIndex>5093</endIndex>
+        <startLine>167</startLine>
+        <startColumn>13</startColumn>
+        <endLine>167</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>168</line>
+        <index>5120</index>
+        <endIndex>5128</endIndex>
+        <startLine>168</startLine>
+        <startColumn>13</startColumn>
+        <endLine>168</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>169</line>
+        <index>5155</index>
+        <endIndex>5163</endIndex>
+        <startLine>169</startLine>
+        <startColumn>13</startColumn>
+        <endLine>169</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>170</line>
+        <index>5191</index>
+        <endIndex>5199</endIndex>
+        <startLine>170</startLine>
+        <startColumn>13</startColumn>
+        <endLine>170</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>171</line>
+        <index>5227</index>
+        <endIndex>5235</endIndex>
+        <startLine>171</startLine>
+        <startColumn>13</startColumn>
+        <endLine>171</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>172</line>
+        <index>5263</index>
+        <endIndex>5271</endIndex>
+        <startLine>172</startLine>
+        <startColumn>13</startColumn>
+        <endLine>172</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>173</line>
+        <index>5299</index>
+        <endIndex>5307</endIndex>
+        <startLine>173</startLine>
+        <startColumn>13</startColumn>
+        <endLine>173</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>174</line>
+        <index>5335</index>
+        <endIndex>5343</endIndex>
+        <startLine>174</startLine>
+        <startColumn>13</startColumn>
+        <endLine>174</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>175</line>
+        <index>5371</index>
+        <endIndex>5379</endIndex>
+        <startLine>175</startLine>
+        <startColumn>13</startColumn>
+        <endLine>175</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>176</line>
+        <index>5407</index>
+        <endIndex>5415</endIndex>
+        <startLine>176</startLine>
+        <startColumn>13</startColumn>
+        <endLine>176</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>177</line>
+        <index>5443</index>
+        <endIndex>5451</endIndex>
+        <startLine>177</startLine>
+        <startColumn>13</startColumn>
+        <endLine>177</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>178</line>
+        <index>5479</index>
+        <endIndex>5487</endIndex>
+        <startLine>178</startLine>
+        <startColumn>13</startColumn>
+        <endLine>178</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>179</line>
+        <index>5515</index>
+        <endIndex>5523</endIndex>
+        <startLine>179</startLine>
+        <startColumn>13</startColumn>
+        <endLine>179</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>180</line>
+        <index>5551</index>
+        <endIndex>5559</endIndex>
+        <startLine>180</startLine>
+        <startColumn>13</startColumn>
+        <endLine>180</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>181</line>
+        <index>5587</index>
+        <endIndex>5595</endIndex>
+        <startLine>181</startLine>
+        <startColumn>13</startColumn>
+        <endLine>181</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>182</line>
+        <index>5622</index>
+        <endIndex>5630</endIndex>
+        <startLine>182</startLine>
+        <startColumn>13</startColumn>
+        <endLine>182</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>183</line>
+        <index>5657</index>
+        <endIndex>5665</endIndex>
+        <startLine>183</startLine>
+        <startColumn>13</startColumn>
+        <endLine>183</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>184</line>
+        <index>5692</index>
+        <endIndex>5700</endIndex>
+        <startLine>184</startLine>
+        <startColumn>13</startColumn>
+        <endLine>184</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>189</line>
+        <index>5794</index>
+        <endIndex>5802</endIndex>
+        <startLine>189</startLine>
+        <startColumn>13</startColumn>
+        <endLine>189</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>190</line>
+        <index>5829</index>
+        <endIndex>5837</endIndex>
+        <startLine>190</startLine>
+        <startColumn>13</startColumn>
+        <endLine>190</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>191</line>
+        <index>5864</index>
+        <endIndex>5872</endIndex>
+        <startLine>191</startLine>
+        <startColumn>13</startColumn>
+        <endLine>191</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>192</line>
+        <index>5899</index>
+        <endIndex>5907</endIndex>
+        <startLine>192</startLine>
+        <startColumn>13</startColumn>
+        <endLine>192</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>193</line>
+        <index>5934</index>
+        <endIndex>5942</endIndex>
+        <startLine>193</startLine>
+        <startColumn>13</startColumn>
+        <endLine>193</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>194</line>
+        <index>5970</index>
+        <endIndex>5978</endIndex>
+        <startLine>194</startLine>
+        <startColumn>13</startColumn>
+        <endLine>194</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>195</line>
+        <index>6006</index>
+        <endIndex>6014</endIndex>
+        <startLine>195</startLine>
+        <startColumn>13</startColumn>
+        <endLine>195</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>196</line>
+        <index>6042</index>
+        <endIndex>6050</endIndex>
+        <startLine>196</startLine>
+        <startColumn>13</startColumn>
+        <endLine>196</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>197</line>
+        <index>6078</index>
+        <endIndex>6086</endIndex>
+        <startLine>197</startLine>
+        <startColumn>13</startColumn>
+        <endLine>197</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>198</line>
+        <index>6114</index>
+        <endIndex>6122</endIndex>
+        <startLine>198</startLine>
+        <startColumn>13</startColumn>
+        <endLine>198</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>199</line>
+        <index>6150</index>
+        <endIndex>6158</endIndex>
+        <startLine>199</startLine>
+        <startColumn>13</startColumn>
+        <endLine>199</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>200</line>
+        <index>6186</index>
+        <endIndex>6194</endIndex>
+        <startLine>200</startLine>
+        <startColumn>13</startColumn>
+        <endLine>200</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>201</line>
+        <index>6222</index>
+        <endIndex>6230</endIndex>
+        <startLine>201</startLine>
+        <startColumn>13</startColumn>
+        <endLine>201</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>202</line>
+        <index>6258</index>
+        <endIndex>6266</endIndex>
+        <startLine>202</startLine>
+        <startColumn>13</startColumn>
+        <endLine>202</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>203</line>
+        <index>6294</index>
+        <endIndex>6302</endIndex>
+        <startLine>203</startLine>
+        <startColumn>13</startColumn>
+        <endLine>203</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>204</line>
+        <index>6330</index>
+        <endIndex>6338</endIndex>
+        <startLine>204</startLine>
+        <startColumn>13</startColumn>
+        <endLine>204</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>205</line>
+        <index>6366</index>
+        <endIndex>6374</endIndex>
+        <startLine>205</startLine>
+        <startColumn>13</startColumn>
+        <endLine>205</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>206</line>
+        <index>6402</index>
+        <endIndex>6410</endIndex>
+        <startLine>206</startLine>
+        <startColumn>13</startColumn>
+        <endLine>206</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>207</line>
+        <index>6439</index>
+        <endIndex>6447</endIndex>
+        <startLine>207</startLine>
+        <startColumn>13</startColumn>
+        <endLine>207</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>208</line>
+        <index>6474</index>
+        <endIndex>6482</endIndex>
+        <startLine>208</startLine>
+        <startColumn>13</startColumn>
+        <endLine>208</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>209</line>
+        <index>6509</index>
+        <endIndex>6517</endIndex>
+        <startLine>209</startLine>
+        <startColumn>13</startColumn>
+        <endLine>209</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>210</line>
+        <index>6544</index>
+        <endIndex>6552</endIndex>
+        <startLine>210</startLine>
+        <startColumn>13</startColumn>
+        <endLine>210</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>211</line>
+        <index>6580</index>
+        <endIndex>6588</endIndex>
+        <startLine>211</startLine>
+        <startColumn>13</startColumn>
+        <endLine>211</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>212</line>
+        <index>6616</index>
+        <endIndex>6624</endIndex>
+        <startLine>212</startLine>
+        <startColumn>13</startColumn>
+        <endLine>212</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>213</line>
+        <index>6650</index>
+        <endIndex>6658</endIndex>
+        <startLine>213</startLine>
+        <startColumn>13</startColumn>
+        <endLine>213</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>214</line>
+        <index>6684</index>
+        <endIndex>6692</endIndex>
+        <startLine>214</startLine>
+        <startColumn>13</startColumn>
+        <endLine>214</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>215</line>
+        <index>6720</index>
+        <endIndex>6728</endIndex>
+        <startLine>215</startLine>
+        <startColumn>13</startColumn>
+        <endLine>215</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>216</line>
+        <index>6756</index>
+        <endIndex>6764</endIndex>
+        <startLine>216</startLine>
+        <startColumn>13</startColumn>
+        <endLine>216</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>217</line>
+        <index>6791</index>
+        <endIndex>6799</endIndex>
+        <startLine>217</startLine>
+        <startColumn>13</startColumn>
+        <endLine>217</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>218</line>
+        <index>6826</index>
+        <endIndex>6834</endIndex>
+        <startLine>218</startLine>
+        <startColumn>13</startColumn>
+        <endLine>218</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>219</line>
+        <index>6862</index>
+        <endIndex>6870</endIndex>
+        <startLine>219</startLine>
+        <startColumn>13</startColumn>
+        <endLine>219</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>220</line>
+        <index>6898</index>
+        <endIndex>6906</endIndex>
+        <startLine>220</startLine>
+        <startColumn>13</startColumn>
+        <endLine>220</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>221</line>
+        <index>6934</index>
+        <endIndex>6942</endIndex>
+        <startLine>221</startLine>
+        <startColumn>13</startColumn>
+        <endLine>221</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>222</line>
+        <index>6970</index>
+        <endIndex>6978</endIndex>
+        <startLine>222</startLine>
+        <startColumn>13</startColumn>
+        <endLine>222</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>223</line>
+        <index>7006</index>
+        <endIndex>7014</endIndex>
+        <startLine>223</startLine>
+        <startColumn>13</startColumn>
+        <endLine>223</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>224</line>
+        <index>7042</index>
+        <endIndex>7050</endIndex>
+        <startLine>224</startLine>
+        <startColumn>13</startColumn>
+        <endLine>224</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>225</line>
+        <index>7078</index>
+        <endIndex>7086</endIndex>
+        <startLine>225</startLine>
+        <startColumn>13</startColumn>
+        <endLine>225</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>226</line>
+        <index>7114</index>
+        <endIndex>7122</endIndex>
+        <startLine>226</startLine>
+        <startColumn>13</startColumn>
+        <endLine>226</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>227</line>
+        <index>7150</index>
+        <endIndex>7158</endIndex>
+        <startLine>227</startLine>
+        <startColumn>13</startColumn>
+        <endLine>227</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>228</line>
+        <index>7186</index>
+        <endIndex>7194</endIndex>
+        <startLine>228</startLine>
+        <startColumn>13</startColumn>
+        <endLine>228</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>229</line>
+        <index>7222</index>
+        <endIndex>7230</endIndex>
+        <startLine>229</startLine>
+        <startColumn>13</startColumn>
+        <endLine>229</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>230</line>
+        <index>7258</index>
+        <endIndex>7266</endIndex>
+        <startLine>230</startLine>
+        <startColumn>13</startColumn>
+        <endLine>230</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>231</line>
+        <index>7294</index>
+        <endIndex>7302</endIndex>
+        <startLine>231</startLine>
+        <startColumn>13</startColumn>
+        <endLine>231</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>232</line>
+        <index>7330</index>
+        <endIndex>7338</endIndex>
+        <startLine>232</startLine>
+        <startColumn>13</startColumn>
+        <endLine>232</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>233</line>
+        <index>7366</index>
+        <endIndex>7374</endIndex>
+        <startLine>233</startLine>
+        <startColumn>13</startColumn>
+        <endLine>233</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>234</line>
+        <index>7402</index>
+        <endIndex>7410</endIndex>
+        <startLine>234</startLine>
+        <startColumn>13</startColumn>
+        <endLine>234</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>235</line>
+        <index>7437</index>
+        <endIndex>7445</endIndex>
+        <startLine>235</startLine>
+        <startColumn>13</startColumn>
+        <endLine>235</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>236</line>
+        <index>7472</index>
+        <endIndex>7480</endIndex>
+        <startLine>236</startLine>
+        <startColumn>13</startColumn>
+        <endLine>236</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>237</line>
+        <index>7507</index>
+        <endIndex>7515</endIndex>
+        <startLine>237</startLine>
+        <startColumn>13</startColumn>
+        <endLine>237</endLine>
+        <endColumn>21</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>246</line>
+        <index>7752</index>
+        <endIndex>7760</endIndex>
+        <startLine>246</startLine>
+        <startColumn>21</startColumn>
+        <endLine>246</endLine>
+        <endColumn>29</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to GettingLength must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>244</line>
+        <index>7690</index>
+        <endIndex>7702</endIndex>
+        <startLine>244</startLine>
+        <startColumn>37</startColumn>
+        <endLine>244</endLine>
+        <endColumn>49</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to GetHeight must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>242</line>
+        <index>7620</index>
+        <endIndex>7628</endIndex>
+        <startLine>242</startLine>
+        <startColumn>33</startColumn>
+        <endLine>242</endLine>
+        <endColumn>41</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>253</line>
+        <index>7887</index>
+        <endIndex>7895</endIndex>
+        <startLine>253</startLine>
+        <startColumn>20</startColumn>
+        <endLine>253</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>258</line>
+        <index>7987</index>
+        <endIndex>7995</endIndex>
+        <startLine>258</startLine>
+        <startColumn>20</startColumn>
+        <endLine>258</endLine>
+        <endColumn>28</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to startCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>263</line>
+        <index>8089</index>
+        <endIndex>8096</endIndex>
+        <startLine>263</startLine>
+        <startColumn>20</startColumn>
+        <endLine>263</endLine>
+        <endColumn>27</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to endCol must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>268</line>
+        <index>8176</index>
+        <endIndex>8181</endIndex>
+        <startLine>268</startLine>
+        <startColumn>20</startColumn>
+        <endLine>268</endLine>
+        <endColumn>25</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>277</line>
+        <index>8424</index>
+        <endIndex>8432</endIndex>
+        <startLine>277</startLine>
+        <startColumn>25</startColumn>
+        <endLine>277</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>281</line>
+        <index>8571</index>
+        <endIndex>8579</endIndex>
+        <startLine>281</startLine>
+        <startColumn>30</startColumn>
+        <endLine>281</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>287</line>
+        <index>8859</index>
+        <endIndex>8867</endIndex>
+        <startLine>287</startLine>
+        <startColumn>30</startColumn>
+        <endLine>287</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>293</line>
+        <index>9154</index>
+        <endIndex>9162</endIndex>
+        <startLine>293</startLine>
+        <startColumn>30</startColumn>
+        <endLine>293</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to GetHeight must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>275</line>
+        <index>8360</index>
+        <endIndex>8368</endIndex>
+        <startLine>275</startLine>
+        <startColumn>41</startColumn>
+        <endLine>275</endLine>
+        <endColumn>49</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to GettingLength must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>273</line>
+        <index>8280</index>
+        <endIndex>8292</endIndex>
+        <startLine>273</startLine>
+        <startColumn>37</startColumn>
+        <endLine>273</endLine>
+        <endColumn>49</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionYUp must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>318</line>
+        <index>10007</index>
+        <endIndex>10015</endIndex>
+        <startLine>318</startLine>
+        <startColumn>25</startColumn>
+        <endLine>318</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionYUp must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>322</line>
+        <index>10119</index>
+        <endIndex>10127</endIndex>
+        <startLine>322</startLine>
+        <startColumn>25</startColumn>
+        <endLine>322</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxLeft must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>327</line>
+        <index>10240</index>
+        <endIndex>10250</endIndex>
+        <startLine>327</startLine>
+        <startColumn>25</startColumn>
+        <endLine>327</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxLeft must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>330</line>
+        <index>10350</index>
+        <endIndex>10360</endIndex>
+        <startLine>330</startLine>
+        <startColumn>29</startColumn>
+        <endLine>330</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxLeft must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>335</line>
+        <index>10489</index>
+        <endIndex>10499</endIndex>
+        <startLine>335</startLine>
+        <startColumn>29</startColumn>
+        <endLine>335</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxLeft must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>340</line>
+        <index>10630</index>
+        <endIndex>10640</endIndex>
+        <startLine>340</startLine>
+        <startColumn>25</startColumn>
+        <endLine>340</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionYDown must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>345</line>
+        <index>10754</index>
+        <endIndex>10764</endIndex>
+        <startLine>345</startLine>
+        <startColumn>25</startColumn>
+        <endLine>345</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionYDown must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>349</line>
+        <index>10867</index>
+        <endIndex>10877</endIndex>
+        <startLine>349</startLine>
+        <startColumn>29</startColumn>
+        <endLine>349</endLine>
+        <endColumn>39</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionYDown must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>354</line>
+        <index>11008</index>
+        <endIndex>11018</endIndex>
+        <startLine>354</startLine>
+        <startColumn>25</startColumn>
+        <endLine>354</endLine>
+        <endColumn>35</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxRight must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>359</line>
+        <index>11132</index>
+        <endIndex>11143</endIndex>
+        <startLine>359</startLine>
+        <startColumn>25</startColumn>
+        <endLine>359</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxRight must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>362</line>
+        <index>11244</index>
+        <endIndex>11255</endIndex>
+        <startLine>362</startLine>
+        <startColumn>29</startColumn>
+        <endLine>362</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxRight must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>366</line>
+        <index>11370</index>
+        <endIndex>11381</endIndex>
+        <startLine>366</startLine>
+        <startColumn>33</startColumn>
+        <endLine>366</endLine>
+        <endColumn>44</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxRight must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>372</line>
+        <index>11543</index>
+        <endIndex>11554</endIndex>
+        <startLine>372</startLine>
+        <startColumn>25</startColumn>
+        <endLine>372</endLine>
+        <endColumn>36</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionYUp must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>377</line>
+        <index>11701</index>
+        <endIndex>11709</endIndex>
+        <startLine>377</startLine>
+        <startColumn>41</startColumn>
+        <endLine>377</endLine>
+        <endColumn>49</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionYDown must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>381</line>
+        <index>11900</index>
+        <endIndex>11910</endIndex>
+        <startLine>381</startLine>
+        <startColumn>40</startColumn>
+        <endLine>381</endLine>
+        <endColumn>50</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxLeft must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>385</line>
+        <index>12114</index>
+        <endIndex>12124</endIndex>
+        <startLine>385</startLine>
+        <startColumn>46</startColumn>
+        <endLine>385</endLine>
+        <endColumn>56</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxRight must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>389</line>
+        <index>12315</index>
+        <endIndex>12326</endIndex>
+        <startLine>389</startLine>
+        <startColumn>39</startColumn>
+        <endLine>389</endLine>
+        <endColumn>50</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>375</line>
+        <index>11611</index>
+        <endIndex>11619</endIndex>
+        <startLine>375</startLine>
+        <startColumn>25</startColumn>
+        <endLine>375</endLine>
+        <endColumn>33</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>400</line>
+        <index>12731</index>
+        <endIndex>12739</endIndex>
+        <startLine>400</startLine>
+        <startColumn>30</startColumn>
+        <endLine>400</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>406</line>
+        <index>13019</index>
+        <endIndex>13027</endIndex>
+        <startLine>406</startLine>
+        <startColumn>30</startColumn>
+        <endLine>406</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to mazeArray must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>412</line>
+        <index>13314</index>
+        <endIndex>13322</endIndex>
+        <startLine>412</startLine>
+        <startColumn>30</startColumn>
+        <endLine>412</endLine>
+        <endColumn>38</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxLeft must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>313</line>
+        <index>9805</index>
+        <endIndex>9815</endIndex>
+        <startLine>313</startLine>
+        <startColumn>36</startColumn>
+        <endLine>313</endLine>
+        <endColumn>46</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionxRight must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>313</line>
+        <index>9828</index>
+        <endIndex>9839</endIndex>
+        <startLine>313</startLine>
+        <startColumn>59</startColumn>
+        <endLine>313</endLine>
+        <endColumn>70</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionYUp must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>311</line>
+        <index>9713</index>
+        <endIndex>9721</endIndex>
+        <startLine>311</startLine>
+        <startColumn>32</startColumn>
+        <endLine>311</endLine>
+        <endColumn>40</endColumn>
+        <warning>False</warning>
+      </violation>
+      <violation namespace="StyleCop.CSharp.ReadabilityRules" rule="PrefixLocalCallsWithThis" ruleCheckId="SA1101">
+        <context>The call to visionYDown must begin with the 'this.' prefix to indicate that the item is a member of the class.</context>
+        <line>311</line>
+        <index>9734</index>
+        <endIndex>9744</endIndex>
+        <startLine>311</startLine>
+        <startColumn>53</startColumn>
+        <endLine>311</endLine>
+        <endColumn>63</endColumn>
+        <warning>False</warning>
+      </violation>
+    </violations>
+  </sourcecode>
+  <sourcecode name="GameClock.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2014.04.01 10:18:24.000</styleCop>
+      <settingsFile>2015.02.28 18:54:16.617</settingsFile>
+      <sourceFile>2015.02.28 19:03:49.448</sourceFile>
+      <parser>2014.04.01 10:18:24.000</parser>
+      <StyleCop.CSharp.DocumentationRules>2014.04.01 10:18:24.000</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1052627200</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2014.04.01 10:18:24.000</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2014.04.01 10:18:24.000</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2014.04.01 10:18:24.000</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <project key="-2007275271">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <sourcecode name="StartGame.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2014.04.01 10:18:24.000</styleCop>
+      <settingsFile>2015.02.28 18:54:16.617</settingsFile>
+      <sourceFile>2015.02.28 19:04:35.988</sourceFile>
+      <parser>2014.04.01 10:18:24.000</parser>
+      <StyleCop.CSharp.DocumentationRules>2014.04.01 10:18:24.000</StyleCop.CSharp.DocumentationRules>
+      <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1052627200</StyleCop.CSharp.DocumentationRules.FilesHashCode>
+      <StyleCop.CSharp.LayoutRules>2014.04.01 10:18:24.000</StyleCop.CSharp.LayoutRules>
+      <StyleCop.CSharp.LayoutRules.FilesHashCode>0</StyleCop.CSharp.LayoutRules.FilesHashCode>
+      <StyleCop.CSharp.MaintainabilityRules>2014.04.01 10:18:24.000</StyleCop.CSharp.MaintainabilityRules>
+      <StyleCop.CSharp.MaintainabilityRules.FilesHashCode>0</StyleCop.CSharp.MaintainabilityRules.FilesHashCode>
+      <StyleCop.CSharp.NamingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.NamingRules>
+      <StyleCop.CSharp.NamingRules.FilesHashCode>0</StyleCop.CSharp.NamingRules.FilesHashCode>
+      <StyleCop.CSharp.OrderingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.OrderingRules>
+      <StyleCop.CSharp.OrderingRules.FilesHashCode>0</StyleCop.CSharp.OrderingRules.FilesHashCode>
+      <StyleCop.CSharp.ReadabilityRules>2014.04.01 10:18:24.000</StyleCop.CSharp.ReadabilityRules>
+      <StyleCop.CSharp.ReadabilityRules.FilesHashCode>0</StyleCop.CSharp.ReadabilityRules.FilesHashCode>
+      <StyleCop.CSharp.SpacingRules>2014.04.01 10:18:24.000</StyleCop.CSharp.SpacingRules>
+      <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+</stylecopresultscache>
